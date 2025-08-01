@@ -24,10 +24,6 @@ urldownloader/
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 🐛 Issues & Fixes
