@@ -34,11 +34,16 @@ if start_conversion and url:
                     'preferredquality': '192',
                 }],
                 'ffmpeg_location': ffmpeg_path,
-                'ffprobe_location': ffmpeg_path,  
-
+                'ffprobe_location': ffmpeg_path,
                 'quiet': True,
                 'no_warnings': True,
+                'headers': {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
+                                'AppleWebKit/537.36 (KHTML, like Gecko) '
+                                'Chrome/115.0.0.0 Safari/537.36'
+                },
             }
+
 
             with YoutubeDL(ydl_opts) as ydl:
                 info_dict = ydl.extract_info(url, download=True)
