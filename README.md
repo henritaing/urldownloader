@@ -1,7 +1,8 @@
 # 🎵 YouTube to MP3 Downloader (Streamlit App)
 
-This is a **personal-use web app** to convert YouTube videos to MP3 files for download.  
-Built with **Python**, using **Streamlit**, **yt-dlp**, and **FFmpeg**.
+This is a **personal-use web app** to convert YouTube videos to MP3 files for download.  ⚠️ Disclaimer: Do not use it to violate YouTube’s Terms of Service.
+
+Built with **Python**, using **Streamlit**, **yt-dlp**, and **FFmpeg** and ChatGPT
 
 ---
 
@@ -55,5 +56,3 @@ Add imageio-ffmpeg to requirements.txt
 No need for packages.txt on Streamlit Cloud
 
 Keep everything Python-based for portability
-⚠️ Disclaimer
-This app is intended for personal use only. Do not use it to violate YouTube’s Terms of Service.
